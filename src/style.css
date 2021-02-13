@@ -1,4 +1,11 @@
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("./roboto-slab-v13-latin-regular.woff2") format("woff2");
+}
+
 .hello {
   color: red;
-  background: url('./seth-avatar.jpg');
+  background: url("./seth-avatar.jpg");
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
 }
